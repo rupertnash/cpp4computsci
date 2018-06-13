@@ -1,0 +1,15 @@
+cstyle.cpp, 100, 1.53505e-06
+cstyle.cpp, 1000, 3.3387e-06
+cstyle.cpp, 10000, 3.22525e-05
+cstyle.cpp, 100000, 0.000285248
+cstyle.cpp, 1000000, 0.00289349
+iterstyle.cpp, 100, 1.31749e-06
+iterstyle.cpp, 1000, 7.03094e-06
+iterstyle.cpp, 10000, 5.08481e-05
+iterstyle.cpp, 100000, 0.000545254
+iterstyle.cpp, 1000000, 0.00517842
+rangestyle.cpp, 100, 1.20001e-06
+rangestyle.cpp, 1000, 5.65734e-06
+rangestyle.cpp, 10000, 7.81403e-05
+rangestyle.cpp, 100000, 0.000560822
+rangestyle.cpp, 1000000, 0.00552513
