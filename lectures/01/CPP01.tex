@@ -350,7 +350,7 @@ What about actually doing something?
 \begin{frame}[fragile]{}
 \begin{lstlisting}
 float Complex::magnitude() const {
-  return real*real + imag*imag;
+  return sqrt(real*real + imag*imag);
 }
 \end{lstlisting}
   \begin{itemize}
