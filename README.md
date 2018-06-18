@@ -21,5 +21,5 @@ should prioritise when learning new features.
 
 These lectures were delivered as part of [EPCC](http://www.epcc.ed.ac.uk)'s MSc in High Performance Computing in 2017 and an [ARCHER virtual webinar](https://www.archer.ac.uk/training/virtual/) in 2018.
 
-[Lectures](lectures/)
-[Practicals](practicals/)
+* [Lectures](lectures/)
+* [Practicals](practicals/)
