@@ -33,7 +33,7 @@ function create(options) {
     options = options || {};
     var body;
     
-    epcc = loadUrl("/epcc/template.md");
+    epcc = loadUrl("../epcc/template.md");
     
     if (options.sourceUrl) {
 	body = loadUrl(options.sourceUrl);
