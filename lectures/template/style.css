@@ -1,0 +1,11 @@
+div.thumb {
+    padding: 0.5em;
+    border-style: solid;
+    border-color: rgb(0,50,95);
+    display: flex;
+    align-items: center;
+}
+
+div.thumb::before {
+    content: url(thumbs_up.png);
+}
