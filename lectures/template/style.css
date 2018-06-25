@@ -1,5 +1,6 @@
 div.thumb {
     padding: 0.5em;
+    margin: 0.25em;
     border-style: solid;
     border-color: rgb(0,50,95);
     display: flex;
