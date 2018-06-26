@@ -110,7 +110,8 @@ forward and backward through the data.
 
 Again, the things that need added are marked with `\\TODO`. The most
 important thing to think about is how you will refer to the current
-position and be able to traverse through it efficiently in Morton order
-- the performance should be identical to looping over a raw pointer!
+position and be able to traverse through it efficiently in Morton
+order - the performance should be identical to looping over a raw
+pointer!
 
 
