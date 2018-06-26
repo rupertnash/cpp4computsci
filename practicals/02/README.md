@@ -56,10 +56,15 @@ similar parameter. On a modern multilevel cache machine[^1], this
 means it can take good advantage of all the levels without tuning
 multiple parameters.
 
+(E.g. an ARCHER node has L1, L2, and L3 caches, and the RAM is divided into
+two NUMA regions. If using co-arrays or OpenSHMEM one can view local
+RAM as a cache for the distributed memory - i.e. 6 levels!)
+
+
 This exercise will walk you through a simple implementation.
 
 I have included implementations of the functions that do the
-"bit-twiddling" for translating between a two-dimensional $x$-$y$ index
+"bit-twiddling" for translating between a two-dimensional `x-y` index
 and the Morton index, in the file `bits.hpp`. These are reasonably fast,
 but can be beaten if you are interested to try!
 
@@ -109,7 +114,3 @@ position and be able to traverse through it efficiently in Morton order
 - the performance should be identical to looping over a raw pointer!
 
 
-[^1]: An ARCHER node has L1, L2, and L3 caches, and the RAM is divided
-    into two NUMA regions. If using co-arrays or OpenSHMEM one can
-    view local RAM as a cache for the distributed memory - i.e. 6
-    levels!
