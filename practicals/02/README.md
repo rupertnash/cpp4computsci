@@ -30,23 +30,22 @@ You can compute the Morton index `z` from the x- and y-indices (`i`
 and `j` respectively) by interleaving their bits. An example is shown
 in the table.
 
-         0    1    2    3
-  --- ---- ---- ---- ----
-  0      0    1    4    6
-  1      2    3    5    7
-  2      8    9   12   13
-  3     10   11   14   15
+|    |  0 |  1 |  2 |  3 |
+|----|----|----|----|----|
+| 0  |   0|   1|   4|   6|
+| 1  |   2|   3|   5|   7|
+| 2  |   8|   9|  12|  13|
+| 3  |  10|  11|  14|  15|
 
-Mapping between $x-y$ indexes and Morton index for a matrix of size
-  $4\times 4$. Decimal on the left and binary on the right.
+Mapping between `x-y` indexes and Morton index for a 4 by 4
+matrix. Decimal on the left and binary on the right.
 
-\quad
-           00     01     10     11
-  ---- ------ ------ ------ ------
-  00     0000   0001   0100   0101
-  01     0010   0011   0110   0111
-  10     1000   1001   1100   1101
-  11     1010   1011   1110   1111
+|    |   00 |   01 |   10 |  11 |
+|----|------|------|------|-----|
+| 00 | 0000 | 0001 | 0100 | 0101|
+| 01 | 0010 | 0011 | 0110 | 0111|
+| 10 | 1000 | 1001 | 1100 | 1101|
+| 11 | 1010 | 1011 | 1110 | 1111|
 
 Mapping between `x-y` indexes and Morton index for a matrix of size 
 4-by-4. Decimal on the left and binary on the right.
