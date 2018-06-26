@@ -24,7 +24,7 @@ along a recursive z-shaped curve, as shown in the figure of four
 iterations of the Z-order curve (from
 [Wikipedia](https://en.wikipedia.org/wiki/Z-order_curve)).
 
-![Morton order](mortonorder.pdf)
+![Morton order](mortonorder.png)
 
 You can compute the Morton index `z` from the x- and y-indices (`i`
 and `j` respectively) by interleaving their bits. An example is shown
