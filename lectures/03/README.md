@@ -340,7 +340,7 @@ std::vector<float> SquareAndAddConst(const std::vector<float>& x, float c) {
   std::vector<float> ans;
   ans.resize(x.size());
   std::transform(x.begin(), x.end(), ans.begin(),
-	[c](double z) { return z*z + c; };
+	[c](double z) { return z*z + c; });
   return ans;
 }
 ```

@@ -68,7 +68,7 @@ Or at least close!
 
 # Why not just use...
 
-- CUDA - NVIDA only
+- CUDA - NVIDIA only
 
 - OpenCL - NVIDIA, AMD, embedded GPU. CPU working, but performance not
     great - quite low-level
@@ -190,8 +190,8 @@ Fortunately a number of groups have done much of this work for us!
 -   Using C as the host language. Targets parallelism using OpenMP (CPU,
     Xeon Phi) and CUDA.
 
--   Data elements accessed through macros to abstract layout and data
-    allocationa and movement handled by simple API.
+-   Data elements accessed through macros to abstract layout; data
+    allocation and movement handled by simple API.
 
 -   Parallelism expressed with two macros: `__targetTLP__` and
     `__targetILP__` for thread and instruction level parallelism
@@ -310,7 +310,7 @@ View<float**> d1("label", M, N);
 // 1 run, 1 compile
 View<float*[N]> d2("label", M);
 
-// 0 run, 1 compile
+// 0 run, 2 compile
 View<float[M][N]> d3("label");
 ```
 
