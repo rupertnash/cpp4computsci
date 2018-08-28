@@ -5,5 +5,8 @@ cpptheme = new Theme(
     {
 	thumb: function () {
 	    return '.thumb[\n.thumbtxt[\n' + this +'\n]\n]';
+	},
+	footer: function() {
+	    return epcc.footer() + "<p>&copy; Rupert Nash, The University of Edinburgh, CC-BY</p>";
 	}
     });

@@ -10,3 +10,10 @@ div.thumb {
 div.thumb::before {
     content: url(thumbs_up.png);
 }
+
+div.footer p {
+    position: relative;
+    left: 20px;
+    bottom: 8px;
+    font-size: smaller;
+}
